@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Devst</title>
+</head>
+<body>
+    <header>
+        <H1>Formulário</H1>
+    </header>
+
+    <main>
+        <form action="./Index2.html">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required minlength="8" maxlength="20">
+            
+            <h2>Termos</h2>
+            <p>Você aceita Jesus como seu salvador?</p>
+                <p>Sim <input type="checkbox" name="termos" id="termos" required>
+                Com certeza <input type="checkbox" name="termos" id="termos" required></p>
+            <button type="submit">cadastrar</button >
+        </form>
+    </main>
+
+    <footer>
+        <p> &copy; Desenvolvido por Marcelo, Beatriz e Fabrício</p>
+    </footer>
+</body>
+</html>
